@@ -16,7 +16,7 @@ body{
     color: white;
     height: 800px;
     border-radius: 30px;
-    animation: sliding linear 10s infinite;
+    animation: sliding linear 10s infinite 2s;
 }
 .banner-text{
     margin-left: 106px;
@@ -47,7 +47,7 @@ body{
     width: 100%;
 }
 @keyframes sliding{
-    /* 0%{visibility: hidden; } */
+     0%{visibility: hidden; } 
 
     5%{visibility: visible; 
     background-image: url(images/messi.webp);
@@ -73,4 +73,28 @@ body{
       background-image: url(images/kdb.jpg);
 
   }
+}
+/* 
+top banner part close
+ */
+main{
+    margin-top: 130px;
+}
+/*
+ aside part start  
+ */
+ .menubar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    Width: 312px;
+    Height: 412px;
+    background-color: black;
+ }
+.menu-button{
+    margin: 30px;
+    Width :252px; 
+    Height: 64px;
+    border-radius: 10px;
 }
