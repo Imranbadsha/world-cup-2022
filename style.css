@@ -1,0 +1,76 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 50px 140px;
+}
+/* top banner */
+.top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 800px;
+    border-radius: 30px;
+    animation: sliding linear 10s infinite;
+}
+.banner-text{
+    margin-left: 106px;
+}
+.top-banner h1{
+    Font-size: 5vw;
+    font-weight: 700;
+}
+.top-banner p{
+    Font-size: 1vw;
+    font-weight: 400;
+}
+.top-banner button{
+    Width :187px;
+    Height: 56px;
+    background-color: #DD0000;
+    Padding :16px,25px,16px,25px;
+
+}
+.banner-image{
+    Width  :600px; 
+    Height : 613px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 70px;
+    }
+.top-banner img{
+    width: 100%;
+}
+@keyframes sliding{
+    /* 0%{visibility: hidden; } */
+
+    5%{visibility: visible; 
+    background-image: url(images/messi.webp);
+ }
+    /* 25%{visibility: visible; 
+    background-image: url(images/cr7main.jpg);
+   
+ } */
+    45%{visibility: visible; 
+    background-image: url(images/neymar-03.jpg);
+ }
+    65%{visibility: visible; 
+    background-image: url(images/lewa.jpg);
+   
+ }
+  85% {
+      visibility: visible;
+      background-image: url(images/mbappe.jpg);
+
+  }
+  100% {
+      visibility: visible;
+      background-image: url(images/kdb.jpg);
+
+  }
+}
