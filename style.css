@@ -111,6 +111,9 @@ aside{
     Height: 64px;
     border-radius: 10px;
 }
+#blog-button{
+    background-color: #DD0000;
+}
 /*
  aside part end 
  */
