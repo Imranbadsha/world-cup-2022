@@ -160,6 +160,22 @@ aside{
     margin: 2%;
     padding-left: 3%;
 }
+/* view button css */
+.view-all-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    visibility: hidden;
+}
+.view{
+    Width :131px; 
+    Height: 47px;
+    background-color: #DD0000;
+    color: white;
+}
+/* view button css end  */
 
 /*
  blog part end 
