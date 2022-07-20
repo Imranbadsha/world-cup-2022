@@ -106,6 +106,7 @@ main{
     Width: 312px;
     Height: 412px;
     background-color: black;
+    border-radius: 30px;
  }
 .menu-button{
     margin: 30px;
@@ -286,11 +287,15 @@ color: #B9B9B9;
         Width :734px;
         Height: 398px;
         }
+        .top-banner h1 {
+        Font-size: 3vw;
+        }
+        .top-banner p {
+        Font-size: 0.5em;
+        }
         .banner-image {
-        Width: 60%;
-        Height: 60vh;
-        margin-left: 100px;
-        margin-right: 70px;
+        Width: 300px;
+        Height: 300px;
         }
         .top-banner img{    
         Width :323px ;
