@@ -286,9 +286,16 @@ color: #B9B9B9;
             Width :734px;
             Height: 398px;
          }
+        .banner-image {
+         Width: 60%;
+         Height: 60vh;
+         margin-left: 100px;
+         margin-right: 70px;
+        }
         .top-banner img{
-            margin-top: 30%;
-            width: 100%;
+            
+            Width :323px ;
+            Height: 340px;
         }
         aside{
              position: relative;
@@ -318,6 +325,10 @@ color: #B9B9B9;
                   footer hr {
                     width: 60%;
                     margin-right: 20%;
+        }
+        .upcoming-footer{
+            width: 1207px;
+                height: 370px;
         }
     }
 
