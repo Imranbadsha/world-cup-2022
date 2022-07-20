@@ -332,3 +332,57 @@ color: #B9B9B9;
     }
 
         /* Media query for tablet end  */
+
+   /* Media query for mobile start  */
+
+
+        @media screen and  (max-width: 347px){
+        header{
+        width: 407px;
+        height: 900px;
+        }
+        .top-banner {
+        width: 100%;
+        align-items: baseline;
+        flex-direction:column;
+        }
+        .banner-image {
+        margin-top: 50px;
+        }
+        .top-banner p {
+        Font-size: 3vw;
+        margin-right: 20px;
+        }
+        .top-banner button {
+        Width: 160px;
+        Height: 40px;
+        }
+        aside {
+        position: relative;
+        }
+        main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0%;
+        }
+        .menubar {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        }
+        .container {
+        grid-template-columns: repeat(1, 1fr);
+        }
+        footer {
+        width: 550px;
+        height: 400px;
+        }
+        footer hr {
+        width: 30%;
+        }
+        .footer-link {
+        flex-direction: column;
+        gap: 10px;
+        }
+        
+        }
