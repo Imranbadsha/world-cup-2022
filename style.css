@@ -293,6 +293,10 @@ color: #B9B9B9;
         .top-banner p {
         Font-size: 0.5em;
         }
+        .top-banner button {
+            Width: 160px;
+            Height: 40px;
+        }
         .banner-image {
         Width: 300px;
         Height: 300px;
