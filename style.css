@@ -279,7 +279,7 @@ color: #B9B9B9;
     font-size: 16px;
     font-weight: 400;
    }
-
+ 
 
    /* Media query for tablet  */
    @media screen and (min-width: 348px) and (max-width: 834px) {
@@ -337,6 +337,9 @@ color: #B9B9B9;
         .match-section {
         grid-template-columns: repeat(2, 2fr);
         gap: 50px;
+        }
+        .hider {
+            display: none;
         }
     }
 
