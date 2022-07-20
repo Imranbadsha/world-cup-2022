@@ -41,23 +41,25 @@ header{
     Height: 56px;
     background-color: #DD0000;
     Padding :16px,25px,16px,25px;
+    color: white;
 
 }
 .banner-image{
-    Width  :600px; 
-    Height : 613px;
-    margin-top: 100px;
+    Width  :60%; 
+    Height : 40vh;
+    /* margin-top: 100px; */
     margin-left: 100px;
     margin-right: 70px;
     }
 .top-banner img{
-    width: 100%;
+    width: 70%;
 }
 @keyframes sliding{
      0%{visibility: hidden; } 
 
     5%{visibility: visible; 
     background-image: url(images/messi.webp);
+    
  }
     /* 25%{visibility: visible; 
     background-image: url(images/cr7main.jpg);
@@ -90,12 +92,12 @@ main{
     margin-left: 140px;
     margin-right: 140px;
 }
-aside{
-    position:relative;
-}
 /*
  aside part start  
  */
+ aside {
+     position: relative;
+ }
  .menubar{
     display: flex;
     flex-direction: column;
@@ -276,3 +278,47 @@ color: #B9B9B9;
     font-size: 16px;
     font-weight: 400;
    }
+
+
+   /* Media query for tablet  */
+   @media screen and (min-width: 348px) and (max-width: 834px) {
+        .top-banner{
+            Width :734px;
+            Height: 398px;
+         }
+        .top-banner img{
+            margin-top: 30%;
+            width: 100%;
+        }
+        aside{
+             position: relative;
+        }
+        main{
+             display: flex;
+             flex-direction: column;
+             margin-top: 0%;
+        }
+        .menubar {
+              display: flex;
+              flex-direction: row;
+              background-color: white;
+              margin-top: 0;
+              margin-left: 35%
+        }
+        .container {  
+            grid-template-columns: repeat(2, 3fr);  
+        }
+        .view-all-section {
+            visibility: visible;
+        }
+        footer{
+            width: 950px;
+            height: 40vw;
+        }
+                  footer hr {
+                    width: 60%;
+                    margin-right: 20%;
+        }
+    }
+
+        /* Media query for tablet end  */
