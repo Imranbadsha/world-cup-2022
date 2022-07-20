@@ -225,3 +225,38 @@ color: #B9B9B9;
    #Upcoming-button{
    background-color: #DD0000;
    }
+   /* 
+   main part start  
+   */
+   .match-section{
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 8%;
+   }
+
+   .match-contaiber{
+    border: 1px solid whitesmoke;
+    background-color: #E8E8E8;
+   }
+
+   .flag{
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+   }
+   .flag h4{
+    font-weight: 700;
+    font-size: 16px;
+   }
+   .match-info{
+    text-align: center;
+   }
+   .match-info h1{
+    font-size: 24px;
+    font-weight: 600;
+   }
+   .match-info p{
+    font-size: 16px;
+    font-weight: 400;
+   }
